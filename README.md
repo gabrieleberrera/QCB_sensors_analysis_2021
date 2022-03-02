@@ -14,3 +14,5 @@ The dataset employed for the evaluation can be found at the following links:
 - PTB-XL dataset: https://physionet.org/content/ptb-xl/1.0.1/
 
 For the deep learning solutions the Python Notebooks were designed to work in the Google Colab environment, allowing to allocate resourecs on a GPU device.
+
+For further details about the experimental procedures read the article in this [folder](/Article).
