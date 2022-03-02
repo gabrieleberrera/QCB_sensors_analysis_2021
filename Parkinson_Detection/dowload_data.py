@@ -10,7 +10,7 @@ import pandas as pd
 
 
 # Set path
-json_path = "dataset/mPower/jsons/"
+json_path = "dataset/data/jsons/"
 
 # Set Synapse username and password
 syn = synapseclient.login("user", "pass")
@@ -38,7 +38,7 @@ for id, path in file_map.items():
 
 map_df = pd.DataFrame(map_data, columns=["id", "file_path"])
 
-map_df.to_csv("dataset/mPowerData/files_map.csv", index=False)
+map_df.to_csv("dataset/files_map.csv", index=False)
 
 
 

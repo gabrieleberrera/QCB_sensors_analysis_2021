@@ -1,0 +1,1 @@
+Copy in this folder the UCI HAR dataset

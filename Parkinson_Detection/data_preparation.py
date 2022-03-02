@@ -61,7 +61,7 @@ def norm_and_pad(sequences):
 
 if __name__ == "__main__":
     
-    path = "D:/scuola/QCB/Secondo anno/Tirocinio-QCB-2021/Data/mPowerData/"
+    path = "dataset/data/"
     
     w_df = pd.read_csv(path + "walking_table.csv")
     d_df = pd.read_csv(path + "demographic_table.csv")
@@ -134,12 +134,12 @@ if __name__ == "__main__":
                        'rtn': rtn_data,
                        'rest': rest_data})
 
-    np.save("data/labels", np.array(labels)) 
-    np.save("data/codes", np.array((record_code, health_code)))      
+    np.save("dataset/labels", np.array(labels)) 
+    np.save("dataset/codes", np.array((record_code, health_code)))      
  
-    np.save("data/out_data", np.array(out_data))
-    np.save("data/rtn_data", np.array(rtn_data))  
-    np.save("data/rest_data", np.array(rest_data))
+    np.save("dataset/out_data", np.array(out_data))
+    np.save("dataset/rtn_data", np.array(rtn_data))  
+    np.save("dataset/rest_data", np.array(rest_data))
 
 
     
